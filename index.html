@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <container class="main-container">
+        <div class="heading">
+            <h2 class="heading-title">Number Converter</h2>
+        </div>
+        <div class="input">
+            <h3 class="message hidden" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Enter valid Input:</h3>
+            <input type="text" class="input-field">
+        </div>
+        <div class="playground">
+            <div class="from-converter">
+                <h2 style="color: #464E2E; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" class="from-convert-title">Convert From</h2>
+                <select name="convert-types" id="from">
+                    <option value="">--Please choose an option--</option>
+                    <option value="dog">Decimal</option>
+                    <option value="cat">Hexadecimal</option>
+                    <option value="hamster">Octal</option>
+                    <option value="parrot">Binary</option>
+                </select>
+            </div>
+            <div class="to-converter">
+                <h2 style="color: #464E2E; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" class="to-convert-title">Convert To</h2>
+                <select name="convert-types" id="to">
+                    <option value="">--Please choose an option--</option>
+                    <option value="dog">Decimal</option>
+                    <option value="cat">Hexadecimal</option>
+                    <option value="hamster">Octal</option>
+                    <option value="parrot">Binary</option>
+                </select>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="convert">Convert</button>
+            <button class="swap">Swap</button>
+            <button class="reset">Reset</button>
+        </div>
+        <div class="result">
+            <h2>Conversion Result: <span class="result-print"></span></h2>
+        </div>
+    </container>
+    <script src="app.js"></script>
+</body>
+</html>

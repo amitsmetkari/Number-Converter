@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #362706;
+}
+.heading {
+    margin-top:20px;
+    margin-left: 40%;
+    display: inline-block;
+    position: relative;
+    background-color: #464E2E;
+    color: #E9E5D6;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-bottom:20px;
+}
+.heading-title {
+    font-size:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.input {
+    margin-top:80px;
+}
+.input-field {
+    height: 50px;
+    width: 350px;
+    font-size: 25px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+.message {
+    color: white;
+    margin-left: 45%;
+}
+.playground {
+    background-color: #ACB992;
+    padding: 20px;
+    margin:0 auto 0 auto;
+    margin-top:40px;
+    display: flex;
+    width: 50%;
+    justify-content:space-between;
+    border: 3px solid white;
+    border-radius: 4px;
+}
+select {
+    background-color: #464E2E;
+    border: none;
+    color: #E9E5D6;
+    padding:5px;
+}
+.from-converter {
+    background-color: #E9E5D6;
+    padding:20px;
+}
+.from-convert-title {
+    margin-bottom:10px;
+    text-align:center;
+}
+.to-converter {
+    background-color: #E9E5D6;
+    padding:20px;
+}
+.to-convert-title {
+    margin-bottom:10px;
+    text-align:center;
+}
+.buttons {
+    margin-left: 43.5%;
+    margin-top: 20px;
+}
+.convert {
+    background:none;
+    background-color: #E9E5D6;
+    border: none;
+    border: 3px solid #ACB992;
+    border-radius: 3px;
+    padding: 10px;
+}
+.swap {
+    background:none;
+    background-color: #E9E5D6;
+    border: none;
+    border: 3px solid #ACB992;
+    border-radius: 3px;
+    padding: 10px;
+}
+.reset {
+    background:none;
+    background-color: #E9E5D6;
+    border: none;
+    border: 3px solid #ACB992;
+    border-radius: 3px;
+    padding: 10px;
+}
+button:hover {
+    cursor:pointer;
+}
+button:active {
+    color:red;
+}
+.result {
+    background-color: #E9E5D6;
+    border: 3px solid #ACB992;
+    border-radius: 4px;
+    width: 30%;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    margin-top: 50px;
+}
